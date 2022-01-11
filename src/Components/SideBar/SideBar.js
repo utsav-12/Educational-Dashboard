@@ -29,7 +29,6 @@ const SideBar = () => {
                 </button>
             </div>
             <div className="upgrade_plan">
-                {/* <img src={image} alt="upgrade Plan" /> */}
                 <div className="bottom_text">Upgrade<br /> Your Plan</div>
                 <div className="bottom_arrow">
                     <i className="fas fa-arrow-right"></i>
