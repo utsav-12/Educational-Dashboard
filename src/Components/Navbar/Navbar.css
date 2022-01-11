@@ -1,0 +1,32 @@
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 100%;
+}
+.text{
+    text-transform: capitalize;
+    align-items: center;
+    padding: 22px 0 20px 30px;
+}
+.icons{
+    display: flex;
+    align-items : center;
+    gap : 10px;
+    padding-right: 40px;
+}
+.icons i:nth-child(2){
+    font-size: 25px;
+}
+.icons>i{
+    cursor: pointer;
+}
+
+.icons>span{
+    padding-right: 25px;
+}
+.icons>span>i{
+    cursor: pointer;
+
+}

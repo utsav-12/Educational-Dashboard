@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+}
+.sidebar h3{
+    text-transform: uppercase;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn>span{
+    padding: 0 25px 0 0px;
+    margin-left: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    text-transform: capitalize;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+    width: 150px;
+    margin-top:  20px;
+    padding: 10px 5px;
+    /* margin: 10px 0 0 50px; */
+    background-color: #F5F7F9;
+    border: none;
+    border-radius: 15px;
+}
+
+
+.active_sidebar , .btn:hover{
+    background-color: #C9E618;
+    font-weight: bold;
+}
+
+.upgrade_plan{
+    background-image: url(./image.jpg); 
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 180px;
+    width: 180px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bottom_text{
+    position: absolute;
+    bottom: 35px;
+    left: 60px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background: transparent;
+}
+.bottom_arrow{
+    position: absolute;
+    bottom: 45px;
+    left: 160px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+    background: transparent;
+}
+

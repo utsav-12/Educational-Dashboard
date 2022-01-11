@@ -1,0 +1,82 @@
+ul {
+    list-style: none;
+}
+
+.card__header{
+    /* padding: 0 2px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+h4{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main1{
+        background: #ffffff;
+        width: 100%;
+        margin: 5px auto;
+        box-shadow: 0 1px 5px #d2d2d2;
+        border-radius: 10px;
+        padding-bottom: 10px;
+}
+*/
+.card__body {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.card__body__days{
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(7, 1fr);
+        justify-items: center;
+        justify-content: space-between;
+        text-align: center;
+        text-transform: capitalize;
+        height: 20px ;
+        padding: 0px 20px 0 20px;
+
+} 
+
+.card__body__dates{
+    display: grid;
+    gap: 3px;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding:10px 20px 20px 22px;
+    cursor: pointer;
+
+}
+
+.active {
+    background: #C9E618;
+    color: #ffffff;
+    width: 20px;
+    border-radius: 50%;
+}
+
+hr{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.time{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #CCCCCC;
+    
+    padding-left: 20px;
+}
+
+.calender_text{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #606060;
+    padding-left: 20px;
+}
