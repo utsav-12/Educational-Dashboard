@@ -46,10 +46,13 @@
 }
 
 .upgrade_plan{
+    position: absolute;
     background-image: url(./image.jpg); 
     background-size: cover;
-    margin-top: 100px;
-    margin-left: 50px;
+    /* margin-top: 100px; */
+    /* margin-left: 50px; */
+    bottom: 30px;
+    left: 50px;
     height: 180px;
     width: 180px;
     border-radius: 15px;
@@ -58,8 +61,8 @@
 
 .bottom_text{
     position: absolute;
-    bottom: 35px;
-    left: 60px;
+    bottom: 30px;
+    left: 30px;
     font-weight: bold;
     font-size: 20px;
     color: #ffffff;
@@ -67,8 +70,8 @@
 }
 .bottom_arrow{
     position: absolute;
-    bottom: 45px;
-    left: 160px;
+    bottom: 35px;
+    left: 130px;
     font-weight: bold;
     color: #ffffff;
     font-size: 30px;
