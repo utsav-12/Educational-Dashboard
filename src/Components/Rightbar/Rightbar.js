@@ -1,5 +1,5 @@
 import React from 'react'
-import Rightbar_card from './Rightbar_card'
+import RightbarCard from './RightbarCard'
 import Calender from './Calender/Calender'
 import "./Rightbar.css"
 
@@ -9,12 +9,12 @@ const Rightbar = (props) => {
             <div className="my_progress">
                 <p className='text_rightbar'>my progress</p>
                 <div className="rightbar_card_data">
-                    <Rightbar_card name="Digital illustration"/>
-                    <Rightbar_card name="Expressive portraits"/>
-                    <Rightbar_card name="Isometric room"/>
+                    <RightbarCard name="Digital illustration" />
+                    <RightbarCard name="Expressive portraits" />
+                    <RightbarCard name="Isometric room" />
                 </div>
             </div>
-            <Calender/>
+            <Calender />
         </div>
     )
 }

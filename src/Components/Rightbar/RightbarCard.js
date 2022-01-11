@@ -1,7 +1,7 @@
 import React from 'react'
-import "./Rightbar_card.css"
+import "./RightbarCard.css"
 
-const Rightbar_card = (props) => {
+const RightbarCard = (props) => {
     return (
         <React.Fragment>
             <div className="card_rightbar">
@@ -24,4 +24,4 @@ const Rightbar_card = (props) => {
     )
 }
 
-export default Rightbar_card
+export default RightbarCard
